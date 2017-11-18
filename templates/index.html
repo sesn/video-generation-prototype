@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Generation Prototype</title>
+</head>
+
+<body>
+    <h1>Welcome to Video Generation Prototype</h1>
+
+    <h3>Getting the json content</h3>
+
+</body>
+<script>
+    const url = window.location.href + 'templates/json/prototype.json';
+    console.log(url);
+    var request = new XMLHttpRequest();
+    XMLHttpRequest.onreadystatechange = function() {
+        if (request.readyState === XMLHttpRequest.DONE) {
+            if (request.status === 200) {
+                var response = JSON.parse(request.response);
+                console.log(response);
+                // var results = response.query.results;
+            }
+        }
+    }
+</script>
+
+</html>

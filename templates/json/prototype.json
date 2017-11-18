@@ -1,0 +1,23 @@
+{
+    "content_for_generation": [{
+            "image_name": "Demo 1",
+            "image_path": "images/demo_1.jpg",
+            "text_content": "Demo 1"
+        },
+        {
+            "image_name": "Demo 2",
+            "image_path": "images/demo_2.jpg",
+            "text_content": "Demo 2"
+        },
+        {
+            "image_name": "Demo 3",
+            "image_path": "images/demo_3.jpg",
+            "text_content": "Demo 3"
+        },
+        {
+            "image_name": "Demo 4",
+            "image_path": "images/demo_4.jpg",
+            "text_content": "Demo 4"
+        }
+    ]
+}
